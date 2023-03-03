@@ -1,0 +1,40 @@
+body {
+  margin: 5em;
+  padding: 5em;
+}
+
+header {
+  background-color: black;
+
+  color: white;
+}
+
+.top-header {
+  display: flex;
+  width: 33%;
+  flex-basis: 33%;
+  justify-content: space-evenly;
+  text-align: right;
+}
+
+.top-header > p {
+  width: 32%;
+  text-align: right;
+}
+
+.tagline {
+  padding: 1em;
+}
+h2 {
+  font-size: 5em;
+  text-align: center;
+}
+
+.under-tagline {
+  text-align: center;
+}
+
+.footer {
+  font-size: 12px;
+  padding-top: 2em;
+}
